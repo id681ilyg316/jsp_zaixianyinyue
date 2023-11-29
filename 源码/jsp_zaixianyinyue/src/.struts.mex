@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="jxc" location="551,1460" size="170,70" />
+  <package name="server" location="496,165" size="280,1260">
+    <action name="*_*" location="65,442" size="150,251">
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="login.jsp" />
+      </result>
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="r1">
+        <resourceEdge source="r1" routing="0" target="r1.jsp" />
+      </result>
+      <result name="logout">
+        <resourceEdge source="logout" routing="0" target="login.jsp" />
+      </result>
+      <result name="frontIndex">
+        <resourceEdge source="frontIndex" routing="0" target="index.jsp" />
+      </result>
+      <result name="Aregist">
+        <resourceEdge source="Aregist" routing="0" target="regist.jsp" />
+      </result>
+      <result name="Alogin">
+        <resourceEdge source="Alogin" routing="0" target="login.jsp" />
+      </result>
+      <result name="Fmusic">
+        <resourceEdge source="Fmusic" routing="0" target="Fmusic.jsp" />
+      </result>
+      <result name="Fsc">
+        <resourceEdge source="Fsc" routing="0" target="Fsc.jsp" />
+      </result>
+      <result name="UserUpload">
+        <resourceEdge source="UserUpload" routing="0" target="UserUpload.jsp" />
+      </result>
+      <result name="musicDetail">
+        <resourceEdge source="musicDetail" routing="0" target="musicDetail.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="login.jsp" path="/dynamic/server/view/login.jsp" location="10,1130" size="150,55" />
+  <webResource name="index.jsp" path="/dynamic/server/view/index.jsp" location="254,1025" size="150,55" />
+  <webResource name="r1.jsp" path="/dynamic/server/view/r1.jsp" location="263,850" size="150,55" />
+  <webResource name="index.jsp" path="/dynamic/front/index.jsp" location="273,675" size="150,55" />
+  <webResource name="regist.jsp" path="/dynamic/front/regist.jsp" location="552,10" size="150,55" />
+  <webResource name="login.jsp" path="/dynamic/front/login.jsp" location="834,150" size="150,55" />
+  <webResource name="Fmusic.jsp" path="/dynamic/front/Fmusic.jsp" location="829,325" size="150,55" />
+  <webResource name="Fsc.jsp" path="/dynamic/front/Fsc.jsp" location="839,500" size="150,55" />
+  <webResource name="UserUpload.jsp" path="/dynamic/front/UserUpload.jsp" location="813,675" size="150,55" />
+  <webResource name="musicDetail.jsp" path="/dynamic/front/musicDetail.jsp" location="255,1235" size="150,55" />
+</Struts2Diagram>
+
